@@ -1,2 +1,3 @@
-# randgen
-random number generator
+# Randgen
+
+Random number generator
