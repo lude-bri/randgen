@@ -25,7 +25,7 @@ BUILD_PATH	= .build
 SRC			= $(addprefix $(SRC_PATH)/, randgen.c)
 OBJS		= $(SRC:$(PCG_C_PATH)/%.c=$(BUILD_PATH)/%.o)
 
-LIBFT_PATH	= $(LIBS_PATH)
+LIBFT_PATH	= $(LIBS_PATH)/libft
 LIBFT_ARC	= $(LIBFT_PATH)/libft.a
 
 PCG_C_PATH	= $(LIBS_PATH)/pcg-c
