@@ -86,7 +86,7 @@ deps: 			## Download/Update libft
 
 get_libft:
 	@echo "* $(CYA)Getting Libft submodule$(D)]"
-  git clone https://github.com/lude-bri/libft_42_LP.git $(LIBFT_PATH)
+	git clone https://github.com/lude-bri/libft_42_LP.git $(LIBFT_PATH)
 	@echo "* $(GRN)Libft submodule download$(D): $(_SUCCESS)"
 
 get_pcgc:
