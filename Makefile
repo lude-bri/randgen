@@ -86,12 +86,12 @@ deps: 			## Download/Update libft
 
 get_libft:
 	@echo "* $(CYA)Getting Libft submodule$(D)]"
-  git clone git@github.com:lude-bri/libft_42_LP.git $(LIBFT_PATH)
+  git clone https://github.com/lude-bri/libft_42_LP.git $(LIBFT_PATH)
 	@echo "* $(GRN)Libft submodule download$(D): $(_SUCCESS)"
 
 get_pcgc:
 	@echo "[Downloading $(CYA)Random Number Generator$(D) $(MAG)pcg-c$(D)]"
-	git clone git@github.com:imneme/pcg-c.git $(PCG_C_PATH)
+	git clone https://github.com/imneme/pcg-c.git $(PCG_C_PATH)
 	@echo "* $(MAG)pcg-c$(D) download: $(_SUCCESS)"
 	@echo "[$(YEL)Building $(MAG)pcg-c$(D) Random Number Generator$(D)]"
 	$(MAKE) $(PCG_C_PATH)
