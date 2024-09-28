@@ -72,7 +72,7 @@ $(NAME): $(BUILD_PATH) $(LIBFT_ARC) $(PCG_C_ARC) $(OBJS)
 	@echo "[$(_SUCCESS) compiling $(MAG)Random Number Generator!$(D) $(YEL)🖔$(D)]"
 
 $(LIBFT_ARC):
-	$(MAKE) $(LIBFT_PATH)
+	$(MAKE) $(LIBFT_PATH) extra
 
 $(PCG_C_ARC):
 	$(MAKE) $(PCG_C_PATH)
